@@ -1,4 +1,4 @@
-// Generated from C:/Source/antlr/plsqlt2/src/ru/chufeng\PlSqlParser.g4 by ANTLR 4.7.2
+// Generated from C:/Source/GitHub/grammars-v4/sql/plsql\PlSqlParser.g4 by ANTLR 4.9.1
 package ru.chufeng.plsqllang.parser;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -1276,6 +1276,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterPartitioned_table(PlSqlParser.Partitioned_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPartitioned_table(PlSqlParser.Partitioned_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterOn_hash_partitioned_table(PlSqlParser.On_hash_partitioned_tableContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -1283,6 +1295,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitOn_hash_partitioned_table(PlSqlParser.On_hash_partitioned_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterOn_hash_partitioned_clause(PlSqlParser.On_hash_partitioned_clauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitOn_hash_partitioned_clause(PlSqlParser.On_hash_partitioned_clauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -1300,6 +1324,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterOn_comp_partitioned_clause(PlSqlParser.On_comp_partitioned_clauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitOn_comp_partitioned_clause(PlSqlParser.On_comp_partitioned_clauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterIndex_subpartition_clause(PlSqlParser.Index_subpartition_clauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -1307,6 +1343,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitIndex_subpartition_clause(PlSqlParser.Index_subpartition_clauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterIndex_subpartition_subclause(PlSqlParser.Index_subpartition_subclauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitIndex_subpartition_subclause(PlSqlParser.Index_subpartition_subclauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -2231,6 +2279,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDrop_index(PlSqlParser.Drop_indexContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterRename_object(PlSqlParser.Rename_objectContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitRename_object(PlSqlParser.Rename_objectContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -3196,13 +3256,13 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRelational_properties(PlSqlParser.Relational_propertiesContext ctx) { }
+	@Override public void enterRelational_property(PlSqlParser.Relational_propertyContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRelational_properties(PlSqlParser.Relational_propertiesContext ctx) { }
+	@Override public void exitRelational_property(PlSqlParser.Relational_propertyContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -3796,6 +3856,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterTruncate_table(PlSqlParser.Truncate_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitTruncate_table(PlSqlParser.Truncate_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterDrop_table(PlSqlParser.Drop_tableContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -3803,6 +3875,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDrop_table(PlSqlParser.Drop_tableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterDrop_view(PlSqlParser.Drop_viewContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitDrop_view(PlSqlParser.Drop_viewContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -5044,6 +5128,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterAutogenerated_sequence_definition(PlSqlParser.Autogenerated_sequence_definitionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitAutogenerated_sequence_definition(PlSqlParser.Autogenerated_sequence_definitionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterOut_of_line_part_storage(PlSqlParser.Out_of_line_part_storageContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -5207,6 +5303,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitAdd_constraint(PlSqlParser.Add_constraintContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterAdd_constraint_clause(PlSqlParser.Add_constraint_clauseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitAdd_constraint_clause(PlSqlParser.Add_constraint_clauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -6148,6 +6256,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterSelect_only_statement(PlSqlParser.Select_only_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSelect_only_statement(PlSqlParser.Select_only_statementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterSelect_statement(PlSqlParser.Select_statementContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -6256,13 +6376,13 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSelected_element(PlSqlParser.Selected_elementContext ctx) { }
+	@Override public void enterSelected_list(PlSqlParser.Selected_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSelected_element(PlSqlParser.Selected_elementContext ctx) { }
+	@Override public void exitSelected_list(PlSqlParser.Selected_listContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -7355,6 +7475,30 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitLogical_expression(PlSqlParser.Logical_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterUnary_logical_expression(PlSqlParser.Unary_logical_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitUnary_logical_expression(PlSqlParser.Unary_logical_expressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterLogical_operation(PlSqlParser.Logical_operationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitLogical_operation(PlSqlParser.Logical_operationContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -8459,6 +8603,18 @@ public class PlSqlParserBaseListener implements PlSqlParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitTableview_name(PlSqlParser.Tableview_nameContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterXmltable(PlSqlParser.XmltableContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitXmltable(PlSqlParser.XmltableContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
